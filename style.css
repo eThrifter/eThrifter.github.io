@@ -4,9 +4,9 @@ html {
 
 .scroll-container,
 .scroll-area {
-  min-height:90%;
+  min-height:10%;
   font-size: 100px;
-  height:1080px;
+  height:360px;
 }
 
 .scroll-container {
