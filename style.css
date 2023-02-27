@@ -1,50 +1,76 @@
 html {
   background: #f2f2f2;
-}
-
-.scroll-container,
-.scroll-area {
-  min-height:10%;
-  font-size: 100px;
-  height:360px;
-}
-
-.scroll-container {
-  overflow: auto;
+  scroll-behavior: auto;
   scroll-snap-type: y mandatory;
+  height 100vh;
+  overflow-y: scroll;
 }
-
-.scroll-area {
-  scroll-snap-align: center;
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Arial";
 }
-
-.scroll-container,
-.scroll-area {
-  margin: 0 auto;
+nav{
+	width:100%;
+	background: #262626;
+	overflow: hidden;
+	position: fixed;
+	top:0;
 }
-
-.scroll-area {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
 }
-
-.scroll-area:nth-of-type(1) {
-  background: #49b293;
+li{
+	float: left;
 }
-
-.scroll-area:nth-of-type(2) {
-  background: #c94e4b;
+a{
+	padding: 20px;
+	width: 100px;
+	display: block;
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: bold;
 }
-
-.scroll-area:nth-of-type(3) {
-  background: #4cc1be;
+#section1{
+	height: 700px;
+	background: lime;
+	display: inline-block;
+	width: 100%;
+	
 }
-
-.scroll-area:nth-of-type(4) {
-  background: #8360A6;
+#section2{
+	height: 700px;
+	background: white;
+	display: inline-block;
+	width: 100%;
+	
 }
-p {
-  background-image: url('https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*');
+#section3{
+	height: 700px;
+	background: pink;
+	display: inline-block;
+	width: 100%;
+	
+}
+#section4{
+	height: 700px;
+	background: pink;
+	display: inline-block;
+	width: 100%;
+	
+}
+#section5{
+	height: 700px;
+	background: pink;
+	display: inline-block;
+	width: 100%;
+	
+}
+h1{
+	margin: 100px;
+	text-align: center;
+	padding: 0;
 }
